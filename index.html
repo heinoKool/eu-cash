@@ -6,17 +6,17 @@
     <title>GAC - Green AI Challenge</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter -->
+    <!-- Google Font: PT Serif for all text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
-        /* Basis-Styling für den Inter-Font */
+        /* Basis-Styling für PT Serif */
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'PT Serif', serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
             background-image: url('welt.jpg');
@@ -24,6 +24,10 @@
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'PT Serif', serif;
+            letter-spacing: -0.02em;
         }
 
         /* Styling für das Akkordion (details/summary) */
@@ -101,11 +105,10 @@
     <section class="hero-bg text-white p-8 md:p-12 rounded-2xl shadow-2xl mb-12 text-center">
             <!-- Icon hinzugefügt -->
             <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tight flex items-center justify-center gap-3">
-                <i data-lucide="alert-triangle" class="w-12 h-12 hidden md:inline-block opacity-90"></i>
                 Die Krisensitzung.
             </h1>
             <p class="text-xl md:text-2xl font-light max-w-3xl mx-auto opacity-90">
-                Der Energiehunger der KI droht unsere Klimaziele zu pulverisieren. Wir brauchen keine Optimierung – wir brauchen eine <span class="font-semibold underline decoration-emerald-400 decoration-4">Revolution</span>.
+                Der Energiehunger der Künstlichen Intelligenz droht unsere Klimaziele zu pulverisieren. Wir brauchen keine Optimierung – wir brauchen eine <span class="font-semibold underline decoration-emerald-400 decoration-4">Revolution</span>.
             </p>
 
             <!-- NEU HINZUGEFÜGT: Wettbewerbsziel -->
@@ -239,8 +242,8 @@
 
         <!-- Interaktives Akkordion für die 3 Bewertungskriterien -->
         <section id="kriterien" class="max-w-3xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Die 3 Bewertungskriterien</h2>
-            <p class="text-center text-lg text-gray-600 mb-8 max-w-2xl mx-auto">Euer Pitch wird von der Kommission (euren Mitschülern) anhand dieser drei Kriterien bewertet. Eure finale Idee muss in allen drei Bereichen überzeugen.</p>
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">Die 3 Bewertungskriterien</h2>
+            <p class="text-center text-lg text-white mb-8 max-w-2xl mx-auto">Euer Pitch wird von der Kommission anhand dieser drei Kriterien bewertet. Eure finale Idee muss in allen drei Bereichen überzeugen.</p>
 
             <div class="space-y-6">
                 <!-- Kriterium 1: Impact -->
@@ -248,7 +251,6 @@
                     <summary>
                         <!-- Icon hinzugefügt -->
                         <span class="flex items-center">
-                            <i data-lucide="globe-2" class="w-7 h-7 mr-4 text-emerald-600"></i>
                             <span><span class="text-emerald-600 font-black text-2xl mr-2">1.</span> Impact (Der Klima-Hebel)</span>
                         </span>
                     </summary>
@@ -269,7 +271,6 @@
                     <summary>
                         <!-- Icon hinzugefügt -->
                         <span class="flex items-center">
-                            <i data-lucide="dollar-sign" class="w-7 h-7 mr-4 text-emerald-600"></i>
                             <span><span class="text-emerald-600 font-black text-2xl mr-2">2.</span> Wirtschaftlichkeit (Der Geld-Faktor)</span>
                         </span>
                     </summary>
@@ -290,7 +291,6 @@
                     <summary>
                         <!-- Icon hinzugefügt -->
                         <span class="flex items-center">
-                            <i data-lucide="sparkles" class="w-7 h-7 mr-4 text-emerald-600"></i>
                             <span><span class="text-emerald-600 font-black text-2xl mr-2">3.</span> Innovationsgrad (Der "Wow-Faktor")</span>
                         </span>
                     </summary>
