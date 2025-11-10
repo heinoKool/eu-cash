@@ -1,3 +1,2 @@
-# Web Project
+# Funny EU Förderprogramm for MO10
 
-This is a web project hosted on GitHub Pages.
